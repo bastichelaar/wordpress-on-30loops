@@ -15,7 +15,7 @@
  */
 
 // Read out the environment file
-$env = json_decode(file_get_contents("/app/conf/environment.json"), tru)
+$env = json_decode(file_get_contents("/app/conf/environment.json"), true);
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
